@@ -1,0 +1,57 @@
+{
+  "name": "cap-stone-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@headlessui/react": "^1.7.14",
+    "@supabase/auth-ui-react": "^0.4.2",
+    "@supabase/supabase-js": "^2.22.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@thirdweb-dev/react": "^3.12.2",
+    "@thirdweb-dev/sdk": "^3.10.17",
+    "@vercel/analytics": "^0.1.11",
+    "axios": "^1.3.5",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.5.1",
+    "jsqr": "^1.4.0",
+    "openai": "^3.2.1",
+    "qrious": "^4.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "hardhat": "^2.10.1"
+  }
+}
